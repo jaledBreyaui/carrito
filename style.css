@@ -1,0 +1,105 @@
+* {
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.caja {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    height: 15vh;
+}
+
+.header__hijo__uno {
+    padding-left: 10px;
+    display: flex;
+    height: 60%;
+    background-color: red;
+    font-family: 'Berkshire Swash', cursive;
+    color: white;
+}
+
+.marca {
+    display: flex;
+    align-items: center;
+    font-size: 60px;
+}
+
+.header__hijo__dos {
+    height: 40%;
+    background-color: black;
+}
+
+.tienda {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgb(226, 226, 226);
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.tienda__hijo {
+    height: 365px;
+    width: 180px;
+    min-width: 300px;
+    margin: 40px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ffff;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.tienda__hijo img {
+    height: 200px;
+    width: 180px;
+    border: 1px solid black;
+}
+
+.boton {
+    font-size: 15px;
+    width: 40%;
+    background-color: green;
+    color: white;
+
+}
+
+.carro {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+}
+
+
+.carro__item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+    align-items: center;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.carro__item img {
+    height: 100px;
+    width: 70px;
+}
+
+.remove {
+    background-color: red;
+    width: 50px;
+}
+
+.hidden {
+    display: none;
+}
