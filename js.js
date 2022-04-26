@@ -9,14 +9,14 @@ var productos = [
     {
         nombre: "Gibson Sg",
         precio: 2000,
-        imagen: "./assets/producto-2.png",
+        imagen: "./assets/producto-2.jpg",
         id: 1,
         cantidad: 1,
     },
     {
         nombre: "Fender Stratocaster 70'",
         precio: 3000,
-        imagen: "./assets/producto-3.png",
+        imagen: "./assets/producto-3.jpg",
         id: 2,
         cantidad: 1,
     },

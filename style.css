@@ -59,8 +59,8 @@
 }
 
 .tienda__hijo img {
-    height: 200px;
-    width: 180px;
+    height: 230px;
+    width: 120px;
     border: 1px solid black;
 }
 
@@ -91,8 +91,8 @@
 }
 
 .carro__item img {
-    height: 100px;
-    width: 70px;
+    height: 150px;
+    width: 80px;
 }
 
 .remove {
